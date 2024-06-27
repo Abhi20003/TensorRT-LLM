@@ -30,7 +30,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--hf_model_location',
                         type=str,
-                        default='/tmp/models/Mistral-7B-v0.1')
+                        default='Llama-2-7b-hf')
     parser.add_argument('--test_hf', action='store_true')
     parser.add_argument('--test_trt_llm', action='store_true')
     parser.add_argument('--data_type',
